@@ -68,7 +68,8 @@ const Sidebar = () => {
 				{
 					sidebarItems.map((item, index) => {
 
-						return <li onClick={() => setCurrentMenuItem(index)}>< a href={item.path} key={item.id} className={`text-[17px] font-bold ${currentMenuItem === index ? "text-yellow-color " : "text-white"} flex items-center gap-4 hover:text-yellow-color hover:cursor-pointer`}><span className='text-yellow-color text-[1.2rem] '>{item.icon}</span >{item.name}</a></li>
+
+						return <li  onClick={() => setCurrentMenuItem(index)}>< a href={item.path} key={item.id} className={`text-[17px] font-bold ${currentMenuItem === index ? "text-yellow-color " : "text-white"} flex items-center gap-4 hover:text-yellow-color hover:cursor-pointer`}><span className='text-yellow-color text-[1.2rem] '>{item.icon}</span >{item.name}</a></li>
 					})
 				}
 			</ul >

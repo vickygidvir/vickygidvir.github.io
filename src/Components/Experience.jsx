@@ -68,7 +68,7 @@ const Experience = () => {
 				</div>
 				<div className='flex flex-row gap-10 bg-'>
 					{/* Experience */}
-					<div className='relative w-[50%]'>
+					<div data-aos="fade-up" data-aos-delay={'400'} className='relative w-[50%]'>
 						<div className='text-white bg-blue-container mb-10 flex flex-col gap-14 px-8 py-10 h-fit overflow-hidden relative rounded-3xl'>
 							{
 								workData.map((item) => {
@@ -92,7 +92,7 @@ const Experience = () => {
 
 					{/* Education */}
 
-					<div className='relative  w-[50%]'>
+					<div data-aos="fade-down" data-aos-delay={'500'} className='relative  w-[50%]'>
 						<div className='text-white bg-blue-container mb-10 flex flex-col gap-14 px-8 py-10 h-fit overflow-hidden relative rounded-3xl'>
 							{
 								educationData.map((item) => {

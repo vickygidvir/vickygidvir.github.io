@@ -44,7 +44,7 @@ const AboutMe = () => {
 					About Me
 				</h1>
 				<div className='flex flex-row gap-10 items-center'>
-					<div className='relative'>
+					<div data-aos="fade-up" data-aos-delay={'400'} className='relative '>
 						<div className='text-white bg-blue-container rounded-3xl p-8 min-w-[300px] '>
 							<div className='space-y-6 text-center'>
 								<div >
@@ -64,7 +64,7 @@ const AboutMe = () => {
 						</div>
 					</div>
 
-					<div className='relative'>
+					<div data-aos="fade-down" data-aos-delay={'500'} className='relative'>
 						<div className='text-white bg-blue-container flex flex-col gap-14 px-8 py-10 h-fit overflow-hidden relative rounded-3xl text-xl'>
 
 							<p>
@@ -78,13 +78,12 @@ const AboutMe = () => {
 
 				</div >
 
-				<div className=' bg-blue-container rounded-3xl p-8 mt-10 flex gap-7 text-grey-color'>
+				<div data-aos="flip-up" data-aos-delay={'500'} className=' bg-blue-container rounded-3xl p-8 mt-10 flex gap-7 text-grey-color items-center justify-center '>
 					<FaHtml5 size={'80px'} />
 					<FaCss3Alt size={'80px'} />
 					<BiLogoTailwindCss size={'80px'} />
 					<IoLogoJavascript size={'80px'} />
 					<FaReact size={'80px'} />
-					<FaHtml5 size={'80px'} />
 					<SiRedux size={'80px'} />
 					<RiFlutterFill size={'80px'} />
 					<SiDart size={'80px'} />
