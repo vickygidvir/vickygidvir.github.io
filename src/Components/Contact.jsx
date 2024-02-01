@@ -4,7 +4,7 @@ const Contact = () => {
 	return (
 
 		<section id="contact">
-			<div className='container relative my-32'>
+			<div className='container relative lg:my-32 my-14'>
 				<h2 className='heading'>
 					Get In Touch
 				</h2>
