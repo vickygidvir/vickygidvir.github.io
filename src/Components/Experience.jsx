@@ -66,16 +66,16 @@ const Experience = () => {
 					</h2>
 
 				</div>
-				<div className='flex flex-row gap-10 bg-'>
+				<div className='flex flex-col lg:flex-row gap-10'>
 					{/* Experience */}
-					<div data-aos="fade-up" data-aos-delay={'400'} className='relative w-[50%]'>
-						<div className='text-white bg-blue-container mb-10 flex flex-col gap-14 px-8 py-10 h-fit overflow-hidden relative rounded-3xl'>
+					<div data-aos="fade-down" data-aos-delay={'400'} className='relative lg:w-[50%] w-full '>
+						<div className='text-white bg-blue-container lg:mb-10 flex flex-col gap-5 lg:gap-14 py-6 px-5 lg:px-8 lg:py-10 h-fit overflow-hidden relative rounded-3xl'>
 							{
 								workData.map((item) => {
-									return <div key={item.id} className='pl-12 space-y-3 relative' >
+									return <div key={item.id} className='pl-9 lg:pl-12 space-y-3 relative' >
 										<MdOutlineWorkOutline size={'40px'} className='absolute top-2 -left-[10px] bg-blue-container py-2 z-[10] text-red-color' />
-										<div className='flex justify-between'>
-											<span className='text-grey-color text-[15px]'>{item.duration}</span>
+										<div className='flex justify-between flex-col lg:flex-row gap-1'>
+											<span className='text-grey-color  text-[15px]'>{item.duration}</span>
 											<span className='text-grey-color text-[15px]'>@{item.company}</span>
 										</div>
 										<h3 className='font-bold text-xl'>{item.title}</h3>
@@ -84,7 +84,7 @@ const Experience = () => {
 								})
 							}
 
-							<span className='absolute w-[1px] bg-red-color top-[82px] bottom-[40px] left-[40px] '></span>
+							<span className='absolute w-[1px] bg-red-color top-[42px] lg:top-[82px] bottom-[40px] left-[30px] lg:left-[40px] '></span>
 
 
 						</div>
@@ -92,11 +92,11 @@ const Experience = () => {
 
 					{/* Education */}
 
-					<div data-aos="fade-down" data-aos-delay={'500'} className='relative  w-[50%]'>
-						<div className='text-white bg-blue-container mb-10 flex flex-col gap-14 px-8 py-10 h-fit overflow-hidden relative rounded-3xl'>
+					<div data-aos="fade-up" data-aos-delay={'500'} className='relative lg:w-[50%] w-full'>
+						<div className='text-white bg-blue-container lg:mb-10 flex flex-col gap-5 lg:gap-14 py-6 px-5 lg:px-8 lg:py-10 h-fit overflow-hidden relative rounded-3xl'>
 							{
 								educationData.map((item) => {
-									return <div key={item.id} className='pl-12 space-y-3 relative' >
+									return <div key={item.id} className='pl-9 lg:pl-12 space-y-3 relative' >
 										< SlGraduation size={'40px'} className='absolute top-2 -left-[10px] bg-blue-container py-2 z-[10] text-red-color' />
 										<span className='text-grey-color text-[15px]'>{item.duration}</span>
 										<h3 className='font-bold text-xl'>{item.title}</h3>
@@ -105,7 +105,7 @@ const Experience = () => {
 								})
 							}
 
-							<span className='absolute w-[1px] bg-red-color top-[82px] bottom-[40px] left-[40px] '></span>
+							<span className='absolute w-[1px] bg-red-color top-[42px] lg:top-[82px] bottom-[40px] left-[30px] lg:left-[40px] '></span>
 
 
 						</div>

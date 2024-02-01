@@ -43,7 +43,7 @@ const Sidebar = () => {
 
 	return (
 
-		<div className='w-1/5 fixed top-0 left-0 h-screen border-r border-[#5B5A6A] flex flex-col justify-between items-center p-8 z-[100]'>
+		<div className='hidden  lg:flex lg:flex-col lg:justify-between lg:items-center w-1/5 fixed top-0 left-0 h-screen border-r border-[#5B5A6A]   p-8 z-[100]'>
 
 			<div className='flex flex-col items-center justify-center gap-3'>
 				<img className='h-40' src={photo} />
@@ -69,7 +69,7 @@ const Sidebar = () => {
 					sidebarItems.map((item, index) => {
 
 
-						return <li  onClick={() => setCurrentMenuItem(index)}>< a href={item.path} key={item.id} className={`text-[17px] font-bold ${currentMenuItem === index ? "text-yellow-color " : "text-white"} flex items-center gap-4 hover:text-yellow-color hover:cursor-pointer`}><span className='text-yellow-color text-[1.2rem] '>{item.icon}</span >{item.name}</a></li>
+						return <li onClick={() => setCurrentMenuItem(index)}>< a href={item.path} key={item.id} className={`text-[17px] font-bold ${currentMenuItem === index ? "text-yellow-color " : "text-white"} flex items-center gap-4 hover:text-yellow-color hover:cursor-pointer`}><span className='text-yellow-color text-[1.2rem] '>{item.icon}</span >{item.name}</a></li>
 					})
 				}
 			</ul >

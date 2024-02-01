@@ -59,7 +59,12 @@ export default {
       },
       container: {
         center: true,
-        padding: '55px',
+        padding: {
+          DEFAULT: '1.5rem',
+          lg: '55px'
+          
+          
+        },
       },
       colors: {
         "yellow-color": '#FFD15C',

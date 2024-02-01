@@ -8,7 +8,7 @@
 @layer components {
 
   .btn-red {
-    @apply bg-red-color p-3 font-bold text-white rounded-full px-7 hover:animate-button-push
+    @apply bg-red-color py-3 font-bold text-white rounded-full px-7 hover:animate-button-push
   }
 
   .input {
@@ -16,9 +16,8 @@
   }
 
   .heading {
-    @apply text-4xl font-bold text-white my-14 before:content-link before:absolute before:-top-[14px] before:left-[40px]
+    @apply text-4xl font-bold text-white my-14 before:content-link before:absolute before:-top-[14px] before:left-[15px] lg:before:left-[40px]
   }
-
 
 }
 

@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Sidebar from './Components/Sidebar';
 import Home from './Components/Home';
 import Experience from './Components/Experience';
@@ -14,7 +14,10 @@ const App = () => {
   useEffect(() => {
     Aos.init({
       duration: 1800,
-      offset: 0
+      offset: 0,
+      once: true, // whether animation should happen only once - while scrolling down
+      mirror: true,
+
     });
     Aos.refresh();
   }, []);
@@ -22,11 +25,11 @@ const App = () => {
   return (
     <div className='w-full flex'>
       <Sidebar />
-      <main className='ml-72 grow'>
-        <Home />
-        <AboutMe />
+      <main className='lg:ml-72 grow'>
+         <Home />
+        <AboutMe /> 
         <Experience />
-        <Projects />
+        <Projects /> 
         <Contact />
       </main>
     </div>

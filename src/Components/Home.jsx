@@ -8,12 +8,12 @@ import resume from '../assets/resume.pdf'
 const Home = () => {
 	return (
 		<section id="home">
-			<div className='h-screen flex flex-col items-center justify-around'>
+			<div className='h-screen flex flex-col items-center lg:justify-around relative top-10'>
 
-				<div className='flex items-center justify-around'>
-					<div data-aos="fade-up" data-aos-delay="400" className='flex items-center flex-col justify-center text-white gap-4'>
+				<div className='flex flex-col lg:flex-row items-center justify-center'>
+					<div data-aos="fade-down" data-aos-delay="400" className='flex items-center flex-col justify-center text-white  gap-3 lg:gap-4'>
 						<div className='text-4xl font-bold flex '>Hello <h2 className='animate-waving-hand ml-3'> 👋 </h2>, </div>
-						<h1 className='font-bold text-5xl '>Vicky M. Gidvir</h1>
+						<h1 className='font-bold text-4xl lg:text-5xl '>Vicky M. Gidvir</h1>
 						<span className='flex gap-2 text-xl'>I'm<h2 className=' overflow-hidden whitespace-nowrap text-md text-white'><Typewriter
 							words={['Frontend Developer', 'Flutter Developer', 'UI Developer', 'React Developer']}
 							loop={5}
@@ -23,7 +23,7 @@ const Home = () => {
 							deleteSpeed={50}
 							delaySpeed={1000}
 						/></h2></span>
-						<ul className='flex gap-4 items-center justify-center text-3xl my-3 '>
+						<ul className='flex gap-4 items-center justify-center  text-2xl lg:text-3xl my-3 '>
 							<a href="https://www.linkedin.com/in/vickygidvir"><li className='hover:text-yellow-color cursor-pointer'><FaLinkedin /></li></a>
 							<a href="https://github.com/vickygidvir">	<li className='hover:text-yellow-color cursor-pointer'><FaGithub /></li></a>
 						</ul>
@@ -31,9 +31,9 @@ const Home = () => {
 						<button className='btn-red'><a href={resume} download="vicky_gidvir_resume_2024">Download Resume</a></button>
 					</div>
 
-					<div data-aos="fade-down" data-aos-delay="600" >
-						<img className="h-full" src={avatar} alt="" />
-					</div>
+
+					<img data-aos="fade-up" data-aos-delay="600" className="h-1/2 lg:h-full" src={avatar} alt="" />
+
 
 				</div>
 

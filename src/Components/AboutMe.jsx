@@ -39,12 +39,12 @@ const AboutMe = () => {
 	return (
 
 		<section id='about'>
-			<div className='container relative mb-32'>
+			<div className='container w-screen lg:w-full relative mb-32'>
 				<h1 className='heading'>
 					About Me
 				</h1>
-				<div className='flex flex-row gap-10 items-center'>
-					<div data-aos="fade-up" data-aos-delay={'400'} className='relative '>
+				<div className='flex flex-col lg:flex-row gap-10 items-center justify-center'>
+					<div data-aos="fade-down" data-aos-delay={'400'} className='relative '>
 						<div className='text-white bg-blue-container rounded-3xl p-8 min-w-[300px] '>
 							<div className='space-y-6 text-center'>
 								<div >
@@ -64,8 +64,8 @@ const AboutMe = () => {
 						</div>
 					</div>
 
-					<div data-aos="fade-down" data-aos-delay={'500'} className='relative'>
-						<div className='text-white bg-blue-container flex flex-col gap-14 px-8 py-10 h-fit overflow-hidden relative rounded-3xl text-xl'>
+					<div data-aos="fade-up" data-aos-delay={'500'}>
+						<div className='text-white bg-blue-container flex flex-col  px-8 py-5 lg:py-10 h-fit overflow-hidden relative rounded-3xl text:md lg:text-xl min-w-[300px]'>
 
 							<p>
 								Hello! I'm Vicky Gidvir, a seasoned front developer with 4 years of hands-on experience. Since 2020, I've been crafting dynamic projects using HTML, CSS, JS, and PHP, leveraging frameworks like Yii2 and Laravel. Proficient in databases, I seamlessly navigate from the structured elegance of MySQL to the flexible realms of MongoDB. Now expanding my toolkit with Node.js and React.js, my portfolio showcases a blend of classics (HTML, CSS, JS, PHP) and trendsetters (Node.js, React.js), all harmonized by MySQL and MongoDB.<br /><br />
@@ -78,7 +78,7 @@ const AboutMe = () => {
 
 				</div >
 
-				<div data-aos="flip-up" data-aos-delay={'500'} className=' bg-blue-container rounded-3xl p-8 mt-10 flex gap-7 text-grey-color items-center justify-center '>
+				<div data-aos="flip-up" data-aos-delay={'500'} className=' bg-blue-container rounded-3xl p-5 lg:p-8 mt-10 flex gap-x-4 gap-y-6 lg:gap-7 text-grey-color items-center justify-center flex-wrap'>
 					<FaHtml5 size={'80px'} />
 					<FaCss3Alt size={'80px'} />
 					<BiLogoTailwindCss size={'80px'} />
