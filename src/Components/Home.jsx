@@ -8,7 +8,7 @@ import resume from '../assets/resume.pdf'
 const Home = () => {
 	return (
 		<section id="home">
-			<div className='h-screen flex flex-col items-center lg:justify-around relative top-10'>
+			<div className='h-screen flex flex-col items-center lg:justify-around relative top-3'>
 
 				<div className='flex flex-col lg:flex-row items-center justify-center'>
 					<div data-aos="fade-down" data-aos-delay="400" className='flex items-center flex-col justify-center text-white  gap-3 lg:gap-4'>
