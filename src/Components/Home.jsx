@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import avatar from '../assets/home-avatar.png'
 import { Typewriter } from 'react-simple-typewriter'
-import resume from '../assets/resume.pdf'
+import resume from '../assets/vicky_gidvir_resume.pdf'
 
 const Home = () => {
 	return (
@@ -27,8 +27,7 @@ const Home = () => {
 							<a href="https://www.linkedin.com/in/vickygidvir"><li className='hover:text-yellow-color cursor-pointer'><FaLinkedin /></li></a>
 							<a href="https://github.com/vickygidvir">	<li className='hover:text-yellow-color cursor-pointer'><FaGithub /></li></a>
 						</ul>
-
-						<button className='btn-red'><a href={resume} download="vicky_gidvir_resume_2024">Download Resume</a></button>
+						<button className='btn-red'><a href={resume} target="_blank">Download Resume</a></button>
 					</div>
 
 

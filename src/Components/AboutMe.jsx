@@ -67,18 +67,20 @@ const AboutMe = () => {
 					<div data-aos="fade-up" data-aos-delay={'500'}>
 						<div className='text-white bg-blue-container flex flex-col  px-8 py-5 lg:py-10 h-fit overflow-hidden relative rounded-3xl text:md lg:text-xl min-w-[300px]'>
 
-							<p>
-								Hello! I'm Vicky Gidvir, a seasoned front developer with 4 years of hands-on experience. Since 2020, I've been crafting dynamic projects using HTML, CSS, JS, and PHP, leveraging frameworks like Yii2 and Laravel. Proficient in databases, I seamlessly navigate from the structured elegance of MySQL to the flexible realms of MongoDB. Now expanding my toolkit with Node.js and React.js, my portfolio showcases a blend of classics (HTML, CSS, JS, PHP) and trendsetters (Node.js, React.js), all harmonized by MySQL and MongoDB.<br /><br />
+							<p className='font-thin'>
+								Hello! I'm Vicky Gidvir, currently working @ <b>Cleverex Technology</b>. I am a dedicated and passionate software developer with over 4 years of hands-on experience, specializing in web and mobile technologies and frameworks. Since 2020, I have been involved in crafting dynamic projects using various technologies. Proficient in databases, I seamlessly navigate from the structured elegance of MySQL to the flexible realms of MongoDB. Currently, I am expanding and transitioning my toolkit with Next.js and backend technologies.<br /><br />
 
-								Excited about the dynamic possibilities, I'm eager to apply my expertise in crafting innovative solutions for future web development projects.
+								My portfolio showcases a blend of classics such as <b>HTML, CSS, Tailwind, and Javascript</b>, alongside trendsetters like <b>React.js and Flutter</b>, all harmonized by my proficiency in <b>MySQL and MongoDB</b> .<br /><br />
+
+								Excited about the dynamic possibilities, I am eager to learn, explore more, and apply my expertise in crafting innovative solutions for future development projects while driving continuous improvement.
 							</p>
 
 						</div>
 					</div>
 
-				</div >
+				</div>
 
-				<div data-aos="flip-up" data-aos-delay={'500'} className=' bg-blue-container rounded-3xl p-5 lg:p-8 mt-10 flex gap-x-4 gap-y-6 lg:gap-7 text-grey-color items-center justify-center flex-wrap'>
+				<div data-aos="flip-up" data-aos-delay={'500'} className=' bg-blue-container rounded-3xl p-5 lg:p-8 mt-10 flex gap-x-10 gap-y-6 lg:gap-7 text-grey-color items-center justify-center flex-wrap'>
 					<FaHtml5 size={'80px'} />
 					<FaCss3Alt size={'80px'} />
 					<BiLogoTailwindCss size={'80px'} />
