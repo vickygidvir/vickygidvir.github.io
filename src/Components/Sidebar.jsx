@@ -8,6 +8,7 @@ import { LuMessagesSquare } from "react-icons/lu";
 import photo from "../assets/photo.png"
 import { IoLocationOutline } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
+import ReactLogo from "../Components/ReactLogo.jsx";
 
 const sidebarItems = [{
 	id: 1,
@@ -43,7 +44,7 @@ const Sidebar = () => {
 
 	return (
 
-		<div className='hidden  lg:flex lg:flex-col lg:justify-between lg:items-center w-1/5 fixed top-0 left-0 h-screen border-r border-[#5B5A6A]   p-8 z-[100]'>
+		<div className='hidden  lg:flex lg:flex-col lg:justify-between lg:items-center w-1/5 fixed top-0 left-0 h-screen border-r border-[#5B5A6A] bg-[#081328]   p-8 z-[100]'>
 
 			<div className='flex flex-col items-center justify-center gap-3'>
 				<img className='h-40' src={photo} />
@@ -67,14 +68,15 @@ const Sidebar = () => {
 			<ul className='flex flex-col gap-5'>
 				{
 					sidebarItems.map((item, index) => {
-
-
-						return <li onClick={() => setCurrentMenuItem(index)}>< a href={item.path} key={item.id} className={`text-[17px] font-bold ${currentMenuItem === index ? "text-yellow-color " : "text-white"} flex items-center gap-4 hover:text-yellow-color hover:cursor-pointer`}><span className='text-yellow-color text-[1.2rem] '>{item.icon}</span >{item.name}</a></li>
+						return <li key={item.id} onClick={() => setCurrentMenuItem(index)}>< a href={item.path} key={item.id} className={`text-[17px] font-bold ${currentMenuItem === index ? "text-yellow-color " : "text-white"} flex items-center gap-4 hover:text-yellow-color hover:cursor-pointer`}><span className='text-yellow-color text-[1.2rem] '>{item.icon}</span >{item.name}</a></li>
 					})
 				}
 			</ul >
-			<div className='text-grey-color text-sm'>
-				© 2024 Vix | All Rights Reserved
+			<div className='text-grey-color text-sm flex space-x-1 items-center justify-center'>
+				<span >
+					© 2024 Vix | Crafted with </span>
+				<ReactLogo />
+
 			</div>
 		</div >
 	)

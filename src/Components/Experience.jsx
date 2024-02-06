@@ -21,7 +21,7 @@ const workData = [{
 }, {
 	id: 3,
 	category: "experience",
-	duration: "Feb 2020 - Dec 2020",
+	duration: "Feb 2020 - Jan 2020",
 	title: "Android Developer Intern",
 	company: "Espares Matrix pvt.ltd",
 	desc: "Design, Development of front-end & back-end of applications. Worked on the internal projects on technologies like Android, Java, MySql, Php. Day-to-Day tasks, bugs, Enhancements, Fixes."

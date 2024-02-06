@@ -9,6 +9,16 @@ export default {
       content: {
         "link": 'url("https://jthemes.net/themes/html/bolby/demo/images/dots-bg-light.svg")'
       },
+      dropShadow: {
+        red: [
+          "0 0px 20px rgba(236,58,139, 0.35)",
+          "0 0px 65px rgba(236,58,139, 0.3)"
+        ],
+        yellow: [
+          "0 0px 20px rgba(254,246,91, 0.35)",
+          "0 0px 65px rgba(254,246,91, 0.3)"
+        ]
+      },
       keyframes: {
 
         buttonPush: {
@@ -62,15 +72,14 @@ export default {
         padding: {
           DEFAULT: '1.5rem',
           lg: '55px'
-          
-          
+
         },
       },
       colors: {
         "yellow-color": '#FFD15C',
-        "red-color": '#FF4B60',
+        "red-color": '#bf1650',
         "grey-color": '#8B88B1',
-        "blue-container": '#302F4e'
+        "blue-container": '#191d3a'
       }
     },
   },

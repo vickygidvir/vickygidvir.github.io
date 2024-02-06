@@ -65,10 +65,10 @@ const AboutMe = () => {
 					</div>
 
 					<div data-aos="fade-up" data-aos-delay={'500'}>
-						<div className='text-white bg-blue-container flex flex-col  px-8 py-5 lg:py-10 h-fit overflow-hidden relative rounded-3xl text:md lg:text-xl min-w-[300px]'>
+						<div className='text-white bg-blue-container flex flex-col  px-8 py-5 lg:py-10 h-fit overflow-hidden relative rounded-3xl text:md lg:text-xl min-w-[300px] '>
 
 							<p className='font-thin'>
-								Hello! I'm Vicky Gidvir, currently working @ <b>Cleverex Technology</b>. I am a dedicated and passionate software developer with over 4 years of hands-on experience, specializing in web and mobile technologies and frameworks. Since 2020, I have been involved in crafting dynamic projects using various technologies. Proficient in databases, I seamlessly navigate from the structured elegance of MySQL to the flexible realms of MongoDB. Currently, I am expanding and transitioning my toolkit with Next.js and backend technologies.<br /><br />
+								Hello! I'm Vicky Gidvir, currently working @ <b>Cleverex Technology</b>. I am a dedicated and passionate software developer with over 4 years of hands-on experience, specializing in web and mobile technologies and frameworks. Since 2020, I have been involved in crafting dynamic projects using various technologies. Proficient in databases, I seamlessly navigate from the structured elegance of MySQL to the flexible realms of MongoDB. Currently, I am expanding and transitioning my toolkit with Next.js, Typescript.<br /><br />
 
 								My portfolio showcases a blend of classics such as <b>HTML, CSS, Tailwind, and Javascript</b>, alongside trendsetters like <b>React.js and Flutter</b>, all harmonized by my proficiency in <b>MySQL and MongoDB</b> .<br /><br />
 
