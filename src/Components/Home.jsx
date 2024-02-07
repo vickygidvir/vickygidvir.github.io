@@ -27,7 +27,7 @@ const Home = () => {
 							<a href="https://www.linkedin.com/in/vickygidvir"><li className='hover:text-yellow-color cursor-pointer'><FaLinkedin /></li></a>
 							<a href="https://github.com/vickygidvir">	<li className='hover:text-yellow-color cursor-pointer'><FaGithub /></li></a>
 						</ul>
-						<button className='btn-red'><a href={resume} target="_blank">Download Resume</a></button>
+						<button className='btn-red lg:mt-8 m-0'><a href={resume} target="_blank">Download Resume</a></button>
 
 					</div>
 
