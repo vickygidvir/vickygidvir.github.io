@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import avatar from '../assets/home-avatar.png'
 import { Typewriter } from 'react-simple-typewriter'
-import resume from '/vicky_gidvir_resume_2024.pdf';
+import resume from '/vicky_gidvir_resume.pdf';
 
 const Home = () => {
 	return (
