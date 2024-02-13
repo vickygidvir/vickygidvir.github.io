@@ -28,7 +28,7 @@ const Home = () => {
 							<a href="https://github.com/vickygidvir">	<li className='hover:text-yellow-color cursor-pointer'><FaGithub /></li></a>
 
 						</ul>
-						<button className='btn-red lg:mt-8 m-0'><a href={resume} target="_blank">Download Resume</a></button>
+						<button className='btn-red lg:mt-8 m-0'><a href={resume} target="_blank" rel="noopener noreferrer">Download Resume</a></button>
 
 					</div>
 

@@ -67,8 +67,7 @@ export default {
         'waving-hand': 'wave 2s linear infinite',
         'mouse-wheel': 'mouse 2s linear infinite',
         'button-push': 'buttonPush 0.4s linear 1',
-        'bounce-slow': 'bounce 1.2s ease-in-out 3',
-        'spin-slow': 'spin 2s ease-in-out 1',
+        'spin-slow': 'spin 2.5s ease-in-out 1',
       },
       container: {
         center: true,

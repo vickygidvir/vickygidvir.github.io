@@ -8,7 +8,7 @@
 @layer components {
 
   .btn-red {
-    @apply bg-red-color py-3 font-bold text-white rounded-full px-7 hover:animate-button-push mt-8 inline-flex items-center justify-center text-base shadow-xl transition-transform duration-200 ease-in-out drop-shadow-red hover:scale-[1.02]
+    @apply bg-red-color py-3 font-bold text-white rounded-full px-7 hover:animate-button-push mt-8 inline-flex items-center justify-center text-base shadow-xl transition-transform duration-200 ease-in-out drop-shadow-red
   }
 
   .input {
