@@ -12,7 +12,7 @@ const Home = () => {
 
 				<div className='flex flex-col lg:flex-row items-center justify-center'>
 					<div data-aos="fade-down" data-aos-delay="400" className='flex items-center flex-col justify-center text-white  gap-3 lg:gap-4'>
-						<div className='text-4xl font-bold flex '>Hello <h2 className='animate-waving-hand ml-3'> 👋 </h2>, </div>
+						<div className='text-4xl font-bold flex '>Hello <h2 className='animate-waving-hand ml-3'> 👋 </h2>, I am </div>
 						<h1 className='font-bold text-4xl lg:text-6xl '>Vicky M. Gidvir</h1>
 						<span className='flex gap-2 text-xl'>I'm<h2 className=' overflow-hidden whitespace-nowrap text-md text-white'><Typewriter
 							words={['Frontend Developer', 'Flutter Developer', 'UI Developer', 'React Developer']}
