@@ -97,7 +97,9 @@ const Experience = () => {
 								educationData.map((item) => {
 									return <div key={item.id} className='pl-9 lg:pl-12 space-y-3 relative' >
 										< SlGraduation size={'40px'} className='absolute top-2 -left-[10px] bg-blue-container py-2 z-[10] text-red-color' />
-										<span data-aos="fade-up" data-aos-delay={'300'} className='text-grey-color text-[16px]'>{item.duration}</span>
+										<div data-aos="fade-up" data-aos-delay={'300'}>
+											<span className='text-grey-color text-[16px]'>{item.duration}</span>
+										</div>
 										<h3 data-aos="fade-up" data-aos-delay={'400'} className='font-bold text-xl'>{item.title}</h3>
 										<p data-aos="fade-up" data-aos-delay={'500'} className=' text-[18px] font-light'>{item.desc}</p>
 									</div>
