@@ -9,18 +9,18 @@ import allinone from '../assets/allinone.png'
 const projectData = [{
 	id: 1,
 	image: social,
-	githubLink: "",
-	liveLink: "",
+	githubLink: "#projects",
+	liveLink: "#projects",
 }, {
 	id: 2,
 	image: resumeBuilder,
-	githubLink: "",
-	liveLink: "",
+	githubLink: "#projectz",
+	liveLink: "#projects",
 }, {
 	id: 3,
 	image: allinone,
-	githubLink: "",
-	liveLink: "",
+	githubLink: "#projects",
+	liveLink: "#projects",
 }
 ];
 
