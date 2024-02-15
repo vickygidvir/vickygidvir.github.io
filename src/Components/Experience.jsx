@@ -9,8 +9,7 @@ const workData = [{
 	duration: "Oct 2021 - Present",
 	title: "Software Engineer ",
 	company: "Cleverex Technology pvt.ltd",
-	desc: "Worked on No-Code Application Platform that is powered by an AI enabled development process to digitally transform the business without specialized expertise.Worked with team to enhance code generation engine and successfully reduced the turnaround time to almost 80-90%. Hands on experience on various frontend technologies like Html, Css, Javascript, React and Flutter framework."
-
+	desc: "Contributed to the development of No-Code Web Application Platform that is powered by an AI to digitally transform the business without specialize expertise. Engineered a robust code generation engine in Flutter and shaped it for production. Achieved an impressive code generation time of 15-20 seconds, actively monitoring, improving and enhancing performance and user experience within tight deadlines. Adapted multiple web technologies/languages like HTML, CSS, Javascript, Reactjs, Redux, Context Api, reusable components, integration of Restful APIs for various user interface",
 }, {
 	id: 2,
 	category: "experience",
@@ -68,18 +67,18 @@ const Experience = () => {
 				</div>
 				<div className='flex flex-col lg:flex-row gap-10'>
 					{/* Experience */}
-					<div data-aos="fade-down" data-aos-delay={'400'} className='relative lg:w-[50%] w-full '>
-						<div className='text-white bg-blue-container lg:mb-10 flex flex-col gap-5 lg:gap-14 py-6 px-5 lg:px-8 lg:py-10 h-fit overflow-hidden relative rounded-3xl'>
+					<div className='relative lg:w-[50%] w-full '>
+						<div className='text-white  bg-blue-container lg:mb-10 flex flex-col gap-5 lg:gap-14 py-6 px-5 lg:px-8 lg:py-10 h-fit overflow-hidden relative rounded-3xl'>
 							{
 								workData.map((item) => {
 									return <div key={item.id} className='pl-9 lg:pl-12 space-y-3 relative' >
 										<MdOutlineWorkOutline size={'40px'} className='absolute top-2 -left-[10px] bg-blue-container py-2 z-[10] text-red-color' />
-										<div className='flex justify-between flex-col lg:flex-row gap-1'>
-											<span className='text-grey-color  text-[15px]'>{item.duration}</span>
-											<span className='text-grey-color text-[15px]'>@{item.company}</span>
+										<div data-aos="fade-up" data-aos-delay={'100'} className='flex justify-between flex-col lg:flex-row gap-1'>
+											<span className='text-grey-color  text-[16px]'>{item.duration}</span>
+											<span className='text-grey-color text-[16px]'>@{item.company}</span>
 										</div>
-										<h3 className='font-bold text-xl'>{item.title}</h3>
-										<p className=' text-[16px] font-light'>{item.desc}</p>
+										<h3 data-aos="fade-up" data-aos-delay={'300'} className='font-bold text-xl'>{item.title}</h3>
+										<p data-aos="fade-up" data-aos-delay={'500'} className=' text-[18px] font-light'>{item.desc}</p>
 									</div>
 								})
 							}
@@ -92,15 +91,15 @@ const Experience = () => {
 
 					{/* Education */}
 
-					<div data-aos="fade-up" data-aos-delay={'500'} className='relative lg:w-[50%] w-full'>
+					<div className='relative lg:w-[50%] w-full'>
 						<div className='text-white bg-blue-container lg:mb-10 flex flex-col gap-5 lg:gap-14 py-6 px-5 lg:px-8 lg:py-10 h-fit overflow-hidden relative rounded-3xl'>
 							{
 								educationData.map((item) => {
 									return <div key={item.id} className='pl-9 lg:pl-12 space-y-3 relative' >
 										< SlGraduation size={'40px'} className='absolute top-2 -left-[10px] bg-blue-container py-2 z-[10] text-red-color' />
-										<span className='text-grey-color text-[15px]'>{item.duration}</span>
-										<h3 className='font-bold text-xl'>{item.title}</h3>
-										<p className=' text-[16px] font-light'>{item.desc}</p>
+										<span data-aos="fade-up" data-aos-delay={'600'} className='text-grey-color text-[16px]'>{item.duration}</span>
+										<h3 data-aos="fade-up" data-aos-delay={'700'} className='font-bold text-xl'>{item.title}</h3>
+										<p data-aos="fade-up" data-aos-delay={'800'} className=' text-[18px] font-light'>{item.desc}</p>
 									</div>
 								})
 							}

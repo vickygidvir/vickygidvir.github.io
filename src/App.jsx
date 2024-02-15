@@ -32,7 +32,7 @@ const App = () => {
     <div className='w-full flex'>
       {loading ? (
         <div className='w-full h-screen flex items-center justify-center flex-col gap-4'>
-          <img src={vlogo} className='w-28 h-28 lg:w-40  lg:h-40 animate-spin-slow' alt="" />
+          <img src={vlogo} className='w-28 h-28 lg:w-40  lg:h-40 animate-bounce' alt="" />
           <h1 className='text-3xl font-semibold text-white animate-pulse'>Vicky Gidvir</h1>
         </div>
       ) : (

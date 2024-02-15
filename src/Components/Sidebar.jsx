@@ -42,6 +42,7 @@ const Sidebar = () => {
 
 	const [currentMenuItem, setCurrentMenuItem] = useState(0);
 
+
 	return (
 
 		<div className='hidden  lg:flex lg:flex-col lg:justify-between lg:items-center w-1/5 fixed top-0 left-0 h-screen border-r border-[#5B5A6A] bg-[#081328]   p-8 z-[100]'>
@@ -63,7 +64,6 @@ const Sidebar = () => {
 					<li className='flex items-center justify-center gap-[6px]'> <span><IoMdMail size={'18px'} className='text-yellow-color' /></span> Vickygidvir@gmail.com</li>
 				</ul>
 			</div>
-
 
 			<ul className='flex flex-col gap-5'>
 				{

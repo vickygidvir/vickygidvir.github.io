@@ -65,14 +65,14 @@ const AboutMe = () => {
 					</div>
 
 					<div data-aos="fade-up" data-aos-delay={'500'}>
-						<div className='text-white bg-blue-container flex flex-col  px-8 py-5 lg:py-10 h-fit overflow-hidden relative rounded-3xl text:md lg:text-xl min-w-[300px] '>
+						<div className='text-white text-[18px] bg-blue-container flex flex-col  px-8 py-5 lg:py-10 h-fit overflow-hidden relative rounded-3xl text:md lg:text-xl min-w-[300px] '>
 
 							<p className='font-thin'>
-								Hello! I'm Vicky Gidvir, currently working @ <b>Cleverex Technology</b>. I am a dedicated and passionate software developer with over 4 years of hands-on experience, specializing in web and mobile technologies and frameworks. Since 2020, I have been involved in crafting dynamic projects using various technologies. Proficient in databases, I seamlessly navigate from the structured elegance of MySQL to the flexible realms of MongoDB. Currently, I am expanding and transitioning my toolkit with Next.js, Typescript.<br /><br />
+								Hello! I'm Vicky Gidvir, currently working @<span className='font-semibold'>Cleverex Technology</span>. I am a dedicated and passionate software developer with over <span className='font-semibold'>4 years</span> of hands-on experience, specializing in web and mobile technologies and frameworks. Since 2020, I have been involved in crafting dynamic projects using various technologies. Proficient in databases, I seamlessly navigate from the structured elegance of MySQL to the flexible realms of MongoDB. Currently, I am expanding and transitioning my toolkit with <span className='font-semibold'>Next.js, Typescript.</span><br /><br />
 
-								My portfolio showcases a blend of classics such as <b>HTML, CSS, Tailwind, and Javascript</b>, alongside trendsetters like <b>React.js and Flutter</b>, all harmonized by my proficiency in <b>MySQL and MongoDB</b> .<br /><br />
+								My portfolio showcases a blend of classics such as <span className='font-semibold'>HTML, CSS, Tailwind, and Javascript</span>, alongside trendsetters like <span className='font-semibold'>React.js and Flutter</span>, all harmonized by my proficiency in <span className='font-semibold'></span> <span className='font-semibold'>MySQL and MongoDB</span> .<br /><br />
 
-								Excited about the dynamic possibilities, I am eager to learn, explore more, and apply my expertise in crafting innovative solutions for future development projects while driving continuous improvement.
+								Excited about the dynamic possibilities, I am <span className='font-semibold'>eager to learn, explore more,</span> and apply my expertise in crafting innovative solutions for future development projects while driving continuous improvement.
 							</p>
 
 						</div>

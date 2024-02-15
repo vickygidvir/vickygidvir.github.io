@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -20,8 +21,6 @@ export default {
         ]
       },
       keyframes: {
-
-
         buttonPush: {
           '50%': { transform: 'scale(0.8)' },
           '100%': { transform: 'scale(1)' },
@@ -59,6 +58,11 @@ export default {
           "100%": {
             borderColor: "white"
           }
+        },
+        swing: {
+          '0%': { transform: 'rotate(15deg)' },
+          '50%': { transform: 'rotate(-20deg)' },
+          '100%': { transform: 'rotate(15deg)' },
         }
 
       },
@@ -68,6 +72,8 @@ export default {
         'mouse-wheel': 'mouse 2s linear infinite',
         'button-push': 'buttonPush 0.4s linear 1',
         'spin-slow': 'spin 2.5s ease-in-out 1',
+        'spin-infinite': 'spin 3s ease-in-out infinite',
+        'swing-infinite': 'swing 2s ease-in-out infinite'
       },
       container: {
         center: true,

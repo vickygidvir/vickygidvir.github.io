@@ -11,6 +11,10 @@
     @apply bg-red-color py-3 font-bold text-white rounded-full px-7 hover:animate-button-push mt-8 inline-flex items-center justify-center text-base shadow-xl transition-transform duration-200 ease-in-out drop-shadow-red
   }
 
+  .btn-circle {
+    @apply bg-red-color rounded-full p-3 text-white hover:animate-button-push drop-shadow-red shadow-xl transition-all
+  }
+
   .input {
     @apply p-5 rounded-full outline-none border-none w-full
   }

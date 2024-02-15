@@ -1,70 +1,61 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
+import { TbExternalLink } from "react-icons/tb";
+import social from '../assets/social.png'
+import resumeBuilder from '../assets/resumeBuilder.png'
+import allinone from '../assets/allinone.png'
+
+
+const projectData = [{
+	id: 1,
+	image: social,
+	githubLink: "",
+	liveLink: "",
+}, {
+	id: 2,
+	image: resumeBuilder,
+	githubLink: "",
+	liveLink: "",
+}, {
+	id: 3,
+	image: allinone,
+	githubLink: "",
+	liveLink: "",
+}
+];
 
 const Projects = () => {
 	return (
 		<section id="projects">
-			<div className='container relative my-32'>
+			<div className='container relative my-32 '>
 				<h2 className='heading'>
 					Recent Works
 				</h2>
-				<div className='flex flex-col lg:flex-row gap-5 items-center justify-center'>
+				<div className='grid grid-cols-1 lg:grid-cols-3 gap-5 items-center justify-center'>
 
-					<div data-aos="zoom-in" data-aos-delay={'100'} className='relative group '>
+					{
+						projectData.map((project) => {
+							return <div key={project.id} data-aos="zoom-in" data-aos-delay={'100'} className='relative group'>
 
-						<img className='rounded-3xl' src="https://jthemes.net/themes/html/bolby/demo/images/works/6.svg" alt="" />
+								<img className='rounded-3xl h-[250px] object-cover group-hover:blur-sm transition-opacity ease-in-out duration-300' src={project.image} alt="" />
 
-						<div className='absolute inset-0 rounded-3xl transition-all ease-in duration-300 cursor-pointer hover:bg-[#7A7AE7]  hover:opacity-[0.9] hidden group-hover:flex  group-hover:justify-around group-hover:px-10 group-hover:flex-col group-hover:text-xl'>
-							<span className='font-bold text-white'>Project Management Illustration</span>
+								<div className='absolute inset-0 rounded-3xl cursor-pointer hidden group-hover:flex  group-hover:justify-around group-hover:px-10 group-hover:py-1 group-hover:flex-col group-hover:text-xl'>
 
-							{/* <span className='text-[17px] text-white'>Tech Used: - Html, Css, Javascript,React,tailwind</span> */}
+									<div className='flex flex-row items-center justify-center gap-5'>
+										<button className=' bg-yellow-color h-12 w-12 rounded-full text-center relative opacity-100 hover:animate-button-push'>
+											<a href={project.githubLink}><FaGithub size={'30px'} className='absolute top-2 left-2' />
+											</a>
+										</button>
+										<button className=' bg-yellow-color h-12 w-12 rounded-full text-center relative opacity-100 hover:animate-button-push'>
+											<a href={project.liveLink}><TbExternalLink size={'30px'} className='absolute top-2 left-2' />
+											</a>
+										</button>
+									</div>
+								</div>
+							</div>
 
-							<button className=' bg-yellow-color h-12 w-12 rounded-full text-center relative opacity-100 hover:animate-button-push'>
-								<a href=""><FaGithub size={'30px'} className='absolute top-2 left-2' />
-								</a>
-							</button>
-
-
-						</div>
-					</div>
-
-					<div data-aos="zoom-in" data-aos-delay={'300'} className='relative group'>
-
-						<img className='rounded-3xl' src="https://jthemes.net/themes/html/bolby/demo/images/works/1.svg" alt="" />
-
-						<div className='absolute inset-0 rounded-3xl transition-all ease-in duration-300 cursor-pointer hover:bg-[#7A7AE7]  hover:opacity-[0.9] hidden group-hover:flex  group-hover:justify-around group-hover:px-10 group-hover:flex-col group-hover:text-xl'>
-							<span className='font-bold text-white'>Project Management Illustration</span>
-
-							<button className=' bg-yellow-color h-12 w-12 rounded-full text-center relative opacity-100 hover:opacity-75'>
-								<a href=""><FaGithub size={'30px'} className='absolute top-2 left-2' />
-								</a>
-							</button>
-
-
-
-						</div>
-					</div>
-
-					<div data-aos="zoom-in" data-aos-delay={'500'} className='relative group'>
-
-						<img className='rounded-3xl' src="https://jthemes.net/themes/html/bolby/demo/images/works/3.svg" alt="" />
-
-						<div className='absolute inset-0 rounded-3xl transition-all ease-in-out duration-300 cursor-pointer hover:bg-[#7A7AE7]  hover:opacity-[0.9] hidden group-hover:flex  group-hover:justify-around group-hover:px-10 group-hover:flex-col group-hover:text-xl'>
-							<span className='font-bold text-white'>Project Management Illustration</span>
-
-							<button className=' bg-yellow-color h-12 w-12 rounded-full text-center relative opacity-100 hover:opacity-75'>
-								<a href=""><FaGithub size={'30px'} className='absolute top-2 left-2' />
-								</a>
-							</button>
-
-
-
-						</div>
-					</div>
-
-
-
-
+						})
+					}
 				</div >
 			</div >
 		</section>

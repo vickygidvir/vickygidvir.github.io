@@ -1,16 +1,38 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import avatar from '../assets/home-avatar.png'
 import { Typewriter } from 'react-simple-typewriter'
 import resume from '/vicky_gidvir_resume.pdf';
+import { MdOutlineDarkMode } from "react-icons/md";
+import { MdOutlineLightMode } from "react-icons/md";
 
 const Home = () => {
+	const [isDarkMode, setIsDarkMode] = useState(true);
+
+	const toggleLightDarkMode = () => {
+		setIsDarkMode(!isDarkMode);
+	}
+
+	useEffect(() => {
+		if (isDarkMode) {
+			document.documentElement.classList.add("dark");
+		} else {
+			document.documentElement.classList.remove("dark");
+		}
+	}, [isDarkMode])
+
 	return (
 		<section id="home">
 			<div className='h-screen flex flex-col items-center lg:justify-around relative'>
 
+				{/* <button className='btn-circle fixed right-7 lg:right-10 lg:bottom-10 bottom-7 z-50' onClick={() => toggleLightDarkMode()}>
+					{
+						isDarkMode ? (<MdOutlineDarkMode size={28} className='animate-swing-infinite' />) : (<MdOutlineLightMode size={28} className='animate-spin-infinite' />)
+					}
+				</button> */}
 				<div className='flex flex-col lg:flex-row items-center justify-center'>
+
 					<div data-aos="fade-down" data-aos-delay="400" className='flex items-center flex-col justify-center text-white  gap-3 lg:gap-4'>
 						<div className='text-4xl font-bold flex '>Hello <h2 className='animate-waving-hand ml-3'> 👋 </h2>, I am </div>
 						<h1 className='font-bold text-4xl lg:text-6xl '>Vicky M. Gidvir</h1>
