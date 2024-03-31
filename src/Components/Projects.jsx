@@ -1,27 +1,22 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
-import { TbExternalLink } from "react-icons/tb";
 import social from '../assets/social.png'
-import resumeBuilder from '../assets/resumeBuilder.png'
-import allinone from '../assets/allinone.png'
+import homerental from '../assets/homerental.png'
 
 
 const projectData = [{
 	id: 1,
-	image: social,
-	githubLink: "#projects",
-	liveLink: "#projects",
-}, {
+	image: homerental,
+	githubLink: "https://github.com/vickygidvir/home-rental",
+	liveLink: "https://home-rental-web.vercel.app/",
+},
+{
 	id: 2,
-	image: resumeBuilder,
-	githubLink: "#projectz",
-	liveLink: "#projects",
-}, {
-	id: 3,
-	image: allinone,
-	githubLink: "#projects",
-	liveLink: "#projects",
-}
+	image: social,
+	githubLink: "#",
+	liveLink: "#",
+},
+
 ];
 
 const Projects = () => {
@@ -37,22 +32,36 @@ const Projects = () => {
 						projectData.map((project) => {
 							return <div key={project.id} data-aos="zoom-in" data-aos-delay={'100'} className='relative group'>
 
-								<img className='rounded-3xl h-[250px] object-cover group-hover:blur-sm transition-opacity ease-in-out duration-300' src={project.image} alt="" />
 
-								<div className='absolute inset-0 rounded-3xl cursor-pointer hidden group-hover:flex  group-hover:justify-around group-hover:px-10 group-hover:py-1 group-hover:flex-col group-hover:text-xl'>
+								<div className='group-hover:scale-[1.10] duration-500 cursor-pointer'>
+									<img className='rounded-3xl h-[240px] object-cover px-2' src={project.image} alt="" />
 
-									<div className='flex flex-row items-center justify-center gap-5'>
-										<button className=' bg-yellow-color h-12 w-12 rounded-full text-center relative opacity-100 hover:animate-button-push'>
-											<a href={project.githubLink}><FaGithub size={'30px'} className='absolute top-2 left-2' />
+									<div className='flex flex-row items-center justify-center gap-5 my-5'>
+										<button className='text-center text-white text-xl hover:opacity-50'>
+											<a href={project.githubLink}>
+												<FaGithub size={'28px'} className='text-white inline' />
 											</a>
 										</button>
-										<button className=' bg-yellow-color h-12 w-12 rounded-full text-center relative opacity-100 hover:animate-button-push'>
-											<a href={project.liveLink}><TbExternalLink size={'30px'} className='absolute top-2 left-2' />
+
+
+										<button className='text-center text-white text-md  hover:opacity-50'>
+											<a href={project.liveLink} className='flex items-center bg-red-500 rounded-md px-2 py-1'>
+
+												<div className='bg-white animate-pulse h-2 w-2 rounded-full mr-2'></div>
+												<h3 className='text-white '>Live</h3>
+
 											</a>
 										</button>
+
+
 									</div>
+
 								</div>
+
+
 							</div>
+
+
 
 						})
 					}

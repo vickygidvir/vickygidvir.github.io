@@ -25,6 +25,16 @@ export default {
           '50%': { transform: 'scale(0.8)' },
           '100%': { transform: 'scale(1)' },
         },
+        spinnerGrow: {
+          "0%": {
+            transform: "scale(0)",
+          },
+
+          "100%": {
+            transform: "none",
+            opacity: "1",
+          },
+        },
 
         wave: {
           '0%': { transform: 'rotate(0.0deg)' },
@@ -63,7 +73,17 @@ export default {
           '0%': { transform: 'rotate(15deg)' },
           '50%': { transform: 'rotate(-20deg)' },
           '100%': { transform: 'rotate(15deg)' },
-        }
+        },
+        "spinner-grow": {
+          "0%": {
+            transform: "scale(0)",
+          },
+
+          "100%": {
+            transform: "none",
+            opacity: "1",
+          },
+        },
 
       },
 
@@ -73,7 +93,8 @@ export default {
         'button-push': 'buttonPush 0.4s linear 1',
         'spin-slow': 'spin 2.5s ease-in-out 1',
         'spin-infinite': 'spin 3s ease-in-out infinite',
-        'swing-infinite': 'swing 2s ease-in-out infinite'
+        'swing-infinite': 'swing 2s ease-in-out infinite',
+        'grow': 'spinnerGrow 2s ease-in-out 1'
       },
       container: {
         center: true,
