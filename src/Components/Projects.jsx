@@ -33,7 +33,7 @@ const Projects = () => {
 							return <div key={project.id} data-aos="zoom-in" data-aos-delay={'100'} className='relative group'>
 
 
-								<div className='group-hover:scale-[1.10] duration-500 cursor-pointer'>
+								<div className='lg:group-hover:scale-[1.10] duration-500 cursor-pointer'>
 									<img className='rounded-3xl h-[240px] object-cover px-2' src={project.image} alt="" />
 
 									<div className='flex flex-row items-center justify-center gap-5 my-5'>
@@ -44,7 +44,7 @@ const Projects = () => {
 										</button>
 
 
-										<button className='text-center text-white text-md  hover:opacity-50'>
+										<button className='text-center text-white text-md hover:opacity-50'>
 											<a href={project.liveLink} className='flex items-center bg-red-500 rounded-md px-2 py-1'>
 
 												<div className='bg-white animate-pulse h-2 w-2 rounded-full mr-2'></div>
