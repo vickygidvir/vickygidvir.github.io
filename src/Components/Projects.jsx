@@ -7,13 +7,13 @@ import homerental from '../assets/homerental.png'
 const projectData = [{
 	id: 1,
 	image: homerental,
-	githubLink: "https://github.com/vickygidvir/home-rental",
+	githubLink: "https://github.com/vickygidvir/home-rental/",
 	liveLink: "https://home-rental-web.vercel.app/",
 },
 {
 	id: 2,
 	image: social,
-	githubLink: "#",
+	githubLink: "https://github.com/vickygidvir/social-media-web/",
 	liveLink: "#",
 },
 
