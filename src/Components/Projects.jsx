@@ -14,7 +14,7 @@ const projectData = [{
 	id: 2,
 	image: social,
 	githubLink: "https://github.com/vickygidvir/social-media-web/",
-	liveLink: "#",
+	liveLink: "https://social-media-web-psi.vercel.app/login",
 },
 
 ];
