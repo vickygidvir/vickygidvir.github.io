@@ -7,7 +7,7 @@ const workData = [{
 	id: 1,
 	category: "experience",
 	duration: "Oct 2021 - Present",
-	title: "Software Engineer ",
+	title: "Sr. Software Engineer ",
 	company: "Cleverex Technology pvt.ltd",
 	desc: "Contributed to the development of No-Code Web Application Platform that is powered by an AI to digitally transform the business without specialize expertise. Engineered a robust code generation engine in Flutter and shaped it for production. Achieved an impressive code generation time of 15-20 seconds, actively monitoring, improving and enhancing performance and user experience within tight deadlines. Adapted multiple web technologies/languages like HTML, CSS, Javascript, Reactjs, Redux, Context Api, reusable components, integration of Restful APIs for various user interface",
 }, {
@@ -21,7 +21,7 @@ const workData = [{
 	id: 3,
 	category: "experience",
 	duration: "Feb 2020 - Jan 2020",
-	title: "Android Developer Intern",
+	title: "Software Developer Intern",
 	company: "Espares Matrix pvt.ltd",
 	desc: "Design, Development of front-end & back-end of applications. Worked on the internal projects on technologies like Android, Java, MySql, Php. Day-to-Day tasks, bugs, Enhancements, Fixes."
 },

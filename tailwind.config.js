@@ -25,17 +25,6 @@ export default {
           '50%': { transform: 'scale(0.8)' },
           '100%': { transform: 'scale(1)' },
         },
-        spinnerGrow: {
-          "0%": {
-            transform: "scale(0)",
-          },
-
-          "100%": {
-            transform: "none",
-            opacity: "1",
-          },
-        },
-
         wave: {
           '0%': { transform: 'rotate(0.0deg)' },
           '10%': { transform: 'rotate(14deg)' },
@@ -74,17 +63,6 @@ export default {
           '50%': { transform: 'rotate(-20deg)' },
           '100%': { transform: 'rotate(15deg)' },
         },
-        "spinner-grow": {
-          "0%": {
-            transform: "scale(0)",
-          },
-
-          "100%": {
-            transform: "none",
-            opacity: "1",
-          },
-        },
-
       },
 
       animation: {

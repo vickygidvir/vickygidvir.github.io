@@ -3,7 +3,6 @@ import { FaGithub } from "react-icons/fa";
 import social from '../assets/social.png'
 import homerental from '../assets/homerental.png'
 
-
 const projectData = [{
 	id: 1,
 	image: homerental,
@@ -16,7 +15,6 @@ const projectData = [{
 	githubLink: "#",
 	liveLink: "#",
 },
-
 ];
 
 const Projects = () => {

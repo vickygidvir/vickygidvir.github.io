@@ -21,10 +21,11 @@ const Contact = () => {
 							<input type="text" placeholder='Email Address' className='input' />
 						</div>
 						<input type="text" placeholder='Subject' className='input' />
-						<input type="text" placeholder='Message' className='input' />
+						<textarea  placeholder='Message' className='input'  />
 						<div>
 							<button className='btn-red'>Send Message</button>
 						</div>
+
 
 					</div>
 

@@ -3,7 +3,7 @@ import Sidebar from './Components/Sidebar';
 import Home from './Components/Home';
 import Experience from './Components/Experience';
 import AboutMe from './Components/AboutMe';
-import Projects from './Components/Projects';
+import PracticlesComponent from './Components/particles';
 import Contact from './Components/Contact';
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -38,11 +38,11 @@ const App = () => {
       ) : (
         <>
           <Sidebar />
+          
           <main className='lg:ml-80 grow'>
             <Home />
             <AboutMe />
             <Experience />
-            <Projects />
             <Contact />
           </main>
         </>

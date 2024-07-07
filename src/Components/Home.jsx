@@ -6,6 +6,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import resume from '/vicky_gidvir_resume.pdf';
 import { MdOutlineDarkMode } from "react-icons/md";
 import { MdOutlineLightMode } from "react-icons/md";
+import ParticlesComponent from './particles';
 
 const Home = () => {
 	const [isDarkMode, setIsDarkMode] = useState(true);
@@ -23,9 +24,11 @@ const Home = () => {
 	}, [isDarkMode])
 
 	return (
-		<section id="home">
-			<div className='h-screen flex flex-col items-center lg:justify-around relative'>
 
+		<section id="home">
+
+			<div className='h-screen flex flex-col items-center lg:justify-around relative'>
+				<ParticlesComponent id='praticles' />
 				{/* <button className='btn-circle fixed right-7 lg:right-10 lg:bottom-10 bottom-7 z-50' onClick={() => toggleLightDarkMode()}>
 					{
 						isDarkMode ? (<MdOutlineDarkMode size={28} className='animate-swing-infinite' />) : (<MdOutlineLightMode size={28} className='animate-spin-infinite' />)
