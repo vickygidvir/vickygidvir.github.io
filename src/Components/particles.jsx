@@ -325,7 +325,7 @@ const ParticlesComponent = () => {
 						"mode": "delete",
 						"value": 0
 					},
-					"value": 6
+					"value": 8
 				},
 				"opacity": {
 					"value": {

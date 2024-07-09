@@ -1,19 +1,12 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
-import social from '../assets/social.png'
-import homerental from '../assets/homerental.png'
+import davinci from '../assets/davinci.png'
 
 const projectData = [{
 	id: 1,
-	image: homerental,
-	githubLink: "https://github.com/vickygidvir/home-rental/",
-	liveLink: "https://home-rental-web.vercel.app/",
-},
-{
-	id: 2,
-	image: social,
-	githubLink: "#",
-	liveLink: "#",
+	image: davinci,
+	githubLink: "https://github.com/vickygidvir/davici-furniture-react",
+	liveLink: "https://davici-furniture-react.vercel.app/",
 },
 ];
 
