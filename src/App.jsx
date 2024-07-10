@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import vlogo from './assets/vlogo.png';
+import Footer from './Components/Footer';
 
 
 const App = () => {
@@ -45,6 +46,7 @@ const App = () => {
             <Experience />
             <Projects />
             <Contact />
+            <Footer/>
           </main>
         </>
       )}
