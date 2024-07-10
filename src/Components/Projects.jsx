@@ -44,6 +44,7 @@ const Projects = () => {
 											</a>
 										</button>
 
+										<h3 className='text-yellow-400 font-bold'>Status : In-Progress</h3>
 
 									</div>
 
