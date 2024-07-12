@@ -29,11 +29,11 @@ const Home = () => {
 
 			<div className='h-screen flex flex-col items-center lg:justify-around relative'>
 				<ParticlesComponent id='praticles' />
-				{ <button className='btn-circle fixed right-7 lg:right-10 lg:bottom-10 bottom-7 z-50' onClick={() => toggleLightDarkMode()}>
+				{/* { <button className='btn-circle fixed right-7 lg:right-10 lg:bottom-10 bottom-7 z-50' onClick={() => toggleLightDarkMode()}>
 					{
 						isDarkMode ? (<MdOutlineDarkMode size={28} className='animate-swing-infinite' />) : (<MdOutlineLightMode size={28} className='animate-spin-infinite' />)
 					}
-				</button> }
+				</button> } */}
 				<div className='flex flex-col lg:flex-row items-center justify-center'>
 
 					<div data-aos="fade-down" data-aos-delay="400" className='flex items-center flex-col justify-center text-white  gap-3 lg:gap-4'>
