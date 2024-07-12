@@ -99,7 +99,7 @@ const Contact = () => {
 								<div className='w-full'>
 									<input
 										type="text"
-										name="user_email"
+										name="user_mail"
 										placeholder='Email Address'
 										className='input mb-2'
 										aria-invalid={errors.email ? 'true' : 'false'}
