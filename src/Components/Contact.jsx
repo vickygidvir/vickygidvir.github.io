@@ -21,7 +21,7 @@ const Contact = () => {
 
 		// Validation logic
 		const name = e.target.user_name.value.trim();
-		const email = e.target.user_email.value.trim();
+		const email = e.target.user_mail.value.trim();
 		const subject = e.target.subject.value.trim();
 		const message = e.target.message.value.trim();
 
