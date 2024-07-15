@@ -44,9 +44,7 @@ const App = () => {
         <>
           <Sidebar menuOpen={menuOpen} toggleMenu={toggleMenu} />
           <main className='grow lg:ml-80'>
-            <div className="lg:hidden absolute top-5 left-6">
-              <IoMenu onClick={toggleMenu} className='text-white cursor-pointer' size={35} />
-            </div>
+
             <Home menuOpen={menuOpen} toggleMenu={toggleMenu} />
             <AboutMe />
             <Experience />
