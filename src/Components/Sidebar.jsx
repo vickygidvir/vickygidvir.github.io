@@ -46,7 +46,7 @@ const Sidebar = ({ menuOpen, toggleMenu }) => {
 
 	return (
 		<div className={`fixed top-0 left-0 h-screen bg-[#081328] p-8 z-50 transform lg:translate-x-0 ${menuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out w-full lg:w-1/5 lg:flex lg:flex-col lg:justify-between lg:items-center border-r border-[#5B5A6A] flex flex-col justify-between items-center`}>
-			<IoClose onClick={toggleMenu} className={`text-white absolute top-5 right-6 cursor-pointer lg:hidden ${menuOpen ? '' : 'hidden'}`} size={35} />
+			<IoClose onClick={toggleMenu} className={`hover:text-red-color text-white absolute top-5 right-6 cursor-pointer lg:hidden ${menuOpen ? '' : 'hidden'}`} size={35} />
 			<div className='flex flex-col items-center justify-center gap-3'>
 				<img className='h-40' src={photo} />
 				<div className='flex items-center justify-center gap-2'>
@@ -62,7 +62,7 @@ const Sidebar = ({ menuOpen, toggleMenu }) => {
 				{
 					sidebarItems.map((item, index) => (
 						<li key={item.id} onClick={() => handleMenuItemClick(index)}>
-							<a href={item.path} className={`text-[17px] font-bold ${currentMenuItem === index ? 'text-yellow-color' : 'text-white'} flex items-center gap-4 hover:text-yellow-color hover:cursor-pointer`}>
+							<a href={item.path} className={`text-[18px] lg:text-[16px]   font-bold ${currentMenuItem === index ? 'text-yellow-color' : 'text-white'} flex items-center gap-4 hover:text-yellow-color hover:cursor-pointer`}>
 								<span className='text-yellow-color text-[1.2rem]'>{item.icon}</span>{item.name}
 							</a>
 						</li>

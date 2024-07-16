@@ -10,7 +10,7 @@ const Home = ({ menuOpen, toggleMenu }) => {
 	return (
 		<section id="home">
 			<div className='h-screen flex flex-col items-center lg:justify-around relative'>
-				<IoMenu onClick={toggleMenu} className={` text-white absolute top-3 left-3 cursor-pointer lg:hidden ${menuOpen ? 'hidden' : 'block'}`} size={35} />
+				<IoMenu onClick={toggleMenu} className={` text-white hover:text-red-color absolute top-3 left-3 cursor-pointer lg:hidden ${menuOpen ? 'hidden' : 'block'}`} size={35} />
 				<ParticlesComponent id='particles' />
 				<div className='flex flex-col lg:flex-row items-center justify-center'>
 					<div data-aos="fade-down" data-aos-delay="400" className='flex items-center flex-col justify-center text-white gap-3 lg:gap-4'>
