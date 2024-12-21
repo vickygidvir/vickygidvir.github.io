@@ -31,7 +31,7 @@ const Home = ({ menuOpen, toggleMenu }) => {
 							<a href="https://www.linkedin.com/in/vickygidvir"><li className='hover:text-yellow-color cursor-pointer'><FaLinkedin /></li></a>
 							<a href="https://github.com/vickygidvir"><li className='hover:text-yellow-color cursor-pointer'><FaGithub /></li></a>
 						</ul>
-						<button className='btn-red lg:mt-8 m-0'><a href={resume} target="_blank" rel="noopener noreferrer">Download Resume</a></button>
+						<button className='hidden btn-red lg:mt-8 m-0'><a href={resume} target="_blank" rel="noopener noreferrer">Download Resume</a></button>
 					</div>
 					<img data-aos="fade-up" data-aos-delay="600" className="h-1/2 lg:h-full" src={avatar} alt="" />
 				</div>
