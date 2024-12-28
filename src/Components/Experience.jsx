@@ -16,14 +16,14 @@ const workData = [{
 	duration: "Feb 2021 - Aug 2021",
 	company: "Virtoustack Softwares pvt.ltd",
 	title: "Software Engineer",
-	desc: "Hands on experience on Design and development of frontend such as developing various basic and complex UI’s, screens and widgets based on Mock Designs with help of flutter, Handling rest APIs and integrating it into the apps."
+	desc: "Contributed to the frontend development of application using React, Flutter creating an intuitive interface for business users to manage financial transactions, payments, and business operations.Engaged on the cross-platform mobile app, actively contributing to the UI development of both basic and complex UIs of 30+ screens, resulting in a 50% reduction in time-to-marketDeveloped a feature-rich Admin Panel using React, providing business administrators with tools for managing users, monitoring transactions, and generating reports in real-time.Implemented efficient state management and reusable components, enhancing performance and simplifying the development of new features.Integrated RESTful APIs for smooth communication between the frontend and backend, ensuring data consistency and quick load times. Ensured the maintenance of coding standards across the entire codebase"
 }, {
 	id: 3,
 	category: "experience",
 	duration: "Feb 2020 - Jan 2020",
 	title: "Software Developer Intern",
 	company: "Espares Matrix pvt.ltd",
-	desc: "Design, Development of front-end & back-end of applications. Worked on the internal projects on technologies like Android, Java, MySql, Php. Day-to-Day tasks, bugs, Enhancements, Fixes."
+	desc: "Developed front-end UI modules emphasizing internal projects. Explored HTML, CSS, Javascript, React expanding software engineering expertise.Implemented a streamlined workflows for day-to-day tasks, troubleshooting technical issues & resolved bugs, delivered enhancements, conducted thorough unit testing & debugging"
 },
 ];
 
