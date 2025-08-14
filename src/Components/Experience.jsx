@@ -16,14 +16,15 @@ const workData = [{
 	id: 2,
 	category: "experience",
 	duration: "Oct 2021 - Present",
-	title: "Sr. Software Engineer ",
+	title: "Senior Software Engineer ",
 	company: "Cleverex Technology pvt.ltd",
 	desc: [
-		"Contributed to the development of a No-Code Web Application Platform powered by AI to digitally transform businesses without specialized expertise.",
-		"Engineered a robust code generation engine in Flutter and prepared it for production.",
-		"Achieved code generation times of 15-20 seconds, actively monitoring, improving, and enhancing performance and user experience within tight deadlines.",
-		"Adapted multiple web technologies/languages: HTML, CSS, JavaScript, ReactJS, Redux, Context API, reusable components, and integrated RESTful APIs for various user interfaces.",
-		"Served as interviewer & conducted L1 technical interviews for various job profiles"
+		"Contributed to the development of an AI-powered software development platform, capable of boosting productivity by 80% and slashing costs by 90%.",
+		"Spearheaded an advanced dynamic code generation engine in Flutter and React, reducing application code delivery time by 60%, from minutes to 15-20 seconds.",
+		"Implemented reusable component architecture in React, reducing development time by 25%.",
+		"Collaborated with an 8+ member agile team, enhancing performance and user experience through continuous feedback and iterative development.",
+		"Conducted rigorous testing and debugging with React and Flutter testing libraries, reducing post-deployment bugs and ensuring a more stable release cycle.",
+		"Served as a technical interviewer, assessing candidates, contributing to hiring processes and team growth."
 	],
 }, {
 	id: 3,
@@ -32,12 +33,10 @@ const workData = [{
 	company: "Virtoustack Softwares pvt.ltd",
 	title: "Software Engineer",
 	desc: [
-		"Contributed to frontend development using React and Flutter, creating intuitive interfaces for business users to manage financial transactions, payments, and operations.",
-		"Actively contributed to UI development for a cross-platform mobile app, building both basic and complex UIs for 30+ screens, resulting in a 50% reduction in time-to-market.",
-		"Developed a feature-rich Admin Panel in React, enabling business administrators to manage users, monitor transactions, and generate real-time reports.",
-		"Implemented efficient state management and reusable components, enhancing performance and simplifying new feature development.",
-		"Integrated RESTful APIs for smooth frontend-backend communication, ensuring data consistency and quick load times.",
-		"Maintained coding standards across the entire codebase."
+		"Developed a feature-rich Admin Panel with React and Flutter, enabling efficient management of financial transactions and business operations by reducing manual overhead by 30%.",
+		"Created cross-platform UIs for 30+ screens using Flutter, accelerating time-to-market by 50%.",
+		"Enhanced performance and scalability with efficient state management and reusable components in both React and Flutter.",
+		"Ensured seamless frontend-backend integration through RESTful APIs with minimal load times."
 	],
 }, {
 	id: 4,
@@ -46,9 +45,10 @@ const workData = [{
 	title: "Software Developer Intern",
 	company: "Espares Matrix pvt.ltd",
 	desc: [
-		"Developed front-end UI modules for internal projects.",
-		"Explored and utilized HTML, CSS, JavaScript, and React to expand software engineering expertise.",
-		"Implemented streamlined workflows for daily tasks, troubleshooting technical issues, resolving bugs, delivering enhancements, and conducting thorough unit testing and debugging."
+		"Developed front-end UI modules for internal projects, streamlining development processes.",
+		"Explored HTML, CSS, Javascript, React expanding software engineering expertise.",
+		"Involving in building multiple UI components from design stage to production.",
+		"Implemented a streamlined workflows for day-to-day tasks, troubleshooting technical issues & resolved bugs, delivered enhancements, conducted thorough unit testing & debugging."
 	],
 },
 ];

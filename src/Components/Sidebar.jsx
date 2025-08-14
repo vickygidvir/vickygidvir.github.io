@@ -12,27 +12,27 @@ import ReactLogo from "../Components/ReactLogo.jsx";
 const sidebarItems = [{
 	id: 1,
 	name: "Home",
-	path: "home",
+	path: "#home",
 	icon: <IoHomeOutline />
 }, {
 	id: 2,
 	name: "About",
-	path: "about",
+	path: "#about",
 	icon: <IoIosPerson />
 }, {
 	id: 3,
 	name: "Experience",
-	path: "experience",
+	path: "#experience",
 	icon: <BsSuitcaseLgFill />
 }, {
 	id: 4,
 	name: "Projects",
-	path: "projects",
+	path: "#projects",
 	icon: <IoLayersOutline />
 }, {
 	id: 5,
 	name: "Contact",
-	path: "contact",
+	path: "#contact",
 	icon: <LuMessagesSquare />
 }];
 

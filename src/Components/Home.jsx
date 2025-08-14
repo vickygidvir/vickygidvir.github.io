@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
-import avatar from '../assets/home-avatar.png';
+import avatar from '../assets/home-avatar-1.png';
 import { Typewriter } from 'react-simple-typewriter';
 import resume from '/vicky_gidvir_resume.pdf';
 import ParticlesComponent from './particles';

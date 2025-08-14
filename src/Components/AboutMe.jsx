@@ -15,6 +15,7 @@ const AboutMe = () => {
 	const [totalExperience, setTotalExperience] = useState({ years: 0, months: 0, days: 0 });
 
 	useEffect(() => {
+		// Calculate experience from a single start date
 		const startDate = new Date('2020-02-01');
 		const currentDate = new Date();
 
