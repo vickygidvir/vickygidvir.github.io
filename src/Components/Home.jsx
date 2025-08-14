@@ -16,9 +16,10 @@ const Home = ({ menuOpen, toggleMenu }) => {
 					<div data-aos="fade-down" data-aos-delay="400" className='flex items-center flex-col justify-center text-white gap-3 lg:gap-4'>
 						<div className='text-4xl font-bold flex '>Hello <h2 className='animate-waving-hand ml-3'> 👋 </h2>, I am </div>
 						<h1 className='font-bold text-4xl lg:text-6xl '>Vicky M. Gidvir</h1>
+					
 						<span className='flex gap-2 text-xl'>I'm <h2 className='overflow-hidden whitespace-nowrap text-md text-white'>
 							<Typewriter
-								words={['Frontend Developer', 'Flutter Developer', 'UI Developer', 'React Developer']}
+								words={[' Frontend Developer' , 'React Developer', 'Flutter Developer']}
 								loop={5}
 								cursor
 								cursorStyle='_'
@@ -31,7 +32,7 @@ const Home = ({ menuOpen, toggleMenu }) => {
 							<a href="https://www.linkedin.com/in/vickygidvir"><li className='hover:text-yellow-color cursor-pointer'><FaLinkedin /></li></a>
 							<a href="https://github.com/vickygidvir"><li className='hover:text-yellow-color cursor-pointer'><FaGithub /></li></a>
 						</ul>
-						{/* <button className='hidden btn-red lg:mt-8 m-0'><a href={resume} target="_blank" rel="noopener noreferrer">Download Resume</a></button> */}
+						{/* <button className=' btn-red lg:mt-8 m-0'><a href={resume} target="_blank" rel="noopener noreferrer">Download Resume</a></button> */}
 					</div>
 					<img data-aos="fade-up" data-aos-delay="600" className="h-1/2 lg:h-full" src={avatar} alt="" />
 				</div>
