@@ -71,7 +71,7 @@ const Sidebar = ({ menuOpen, toggleMenu }) => {
 				}
 			</ul>
 			<div className='text-grey-color text-sm flex space-x-1 items-center justify-center'>
-				<span>© 2025 Vix | Crafted with </span>
+				<span>© 2026 Vix | Made with </span>
 				<ReactLogo />
 			</div>
 		</div>

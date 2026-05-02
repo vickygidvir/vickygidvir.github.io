@@ -1,10 +1,11 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
-import avatar from '../assets/home-avatar-1.png';
+import avatar from '../assets/home-avatar.png';
 import { Typewriter } from 'react-simple-typewriter';
 import resume from '/vicky_gidvir_resume.pdf';
 import ParticlesComponent from './particles';
+import { HiDownload } from "react-icons/hi";
 
 const Home = ({ menuOpen, toggleMenu }) => {
 	return (
@@ -32,7 +33,7 @@ const Home = ({ menuOpen, toggleMenu }) => {
 							<a href="https://www.linkedin.com/in/vickygidvir"><li className='hover:text-yellow-color cursor-pointer'><FaLinkedin /></li></a>
 							<a href="https://github.com/vickygidvir"><li className='hover:text-yellow-color cursor-pointer'><FaGithub /></li></a>
 						</ul>
-						{/* <button className=' btn-red lg:mt-8 m-0'><a href={resume} target="_blank" rel="noopener noreferrer">Download Resume</a></button> */}
+						{ <button className=' btn-red lg:mt-8 m-0'><a className='flex items-center gap-2' href={''} target="_blank" rel="noopener noreferrer"><HiDownload size={20}/>Download my resume</a></button> }
 					</div>
 					<img data-aos="fade-up" data-aos-delay="600" className="h-1/2 lg:h-full" src={avatar} alt="" />
 				</div>

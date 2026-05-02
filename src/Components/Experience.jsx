@@ -8,7 +8,7 @@ const workData = [{
 	category: "experience",
 	duration: "May 2025 - Present",
 	title: "Frontend Developer",
-	company: "Siemens Energy",
+	company: "Siemens Energy, Pune",
 	desc: [
 		"I have recently joined Siemens Energy as a Frontend Developer, where I am working on innovative solutions for the energy sector."
 	],
@@ -17,7 +17,7 @@ const workData = [{
 	category: "experience",
 	duration: "Oct 2021 - Present",
 	title: "Senior Software Engineer ",
-	company: "Cleverex Technology pvt.ltd",
+	company: "CleverEX Technology pvt.ltd",
 	desc: [
 		"Contributed to the development of an AI-powered software development platform, capable of boosting productivity by 80% and slashing costs by 90%.",
 		"Spearheaded an advanced dynamic code generation engine in Flutter and React, reducing application code delivery time by 60%, from minutes to 15-20 seconds.",
@@ -60,21 +60,21 @@ const educationData = [
 		duration: "2016 - 2019",
 		title: "B.E ~ Computer Engineering",
 		desc: [
-			"Savitribai Phule Pune University",]
+			"Savitribai Phule Pune University, Pune",]
 	},
 	{
 		id: 2,
 		category: "education",
 		duration: "2013 - 2016",
 		title: "Diploma ~ Computer Engineering",
-		desc: "Aissms Polytechnic"
+		desc: "Aissms Polytechnic, Pune"
 	},
 	{
 		id: 3,
 		category: "education",
 		duration: "2003-2013",
 		title: "School",
-		desc: "Stella Maris High School"
+		desc: "Stella Maris High School, Pune"
 	},
 ];
 

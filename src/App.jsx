@@ -48,7 +48,7 @@ const App = () => {
             <Home menuOpen={menuOpen} toggleMenu={toggleMenu} />
             <AboutMe />
             <Experience />
-            <Projects />
+            {/* <Projects /> */}
             <Contact />
             <Footer />
           </main>
